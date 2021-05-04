@@ -1,0 +1,54 @@
+/* Write your code here. */
+
+/* each emoji list item*/
+.emoji-item {
+  background-color: #ffffff33;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 3px solid #ffffff30;
+}
+@media screen and (max-width: 540px) {
+  .emoji-item {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .emoji-item {
+    width: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 10px;
+  }
+}
+
+/*emoji image properties  with hover property*/
+@media screen and (max-width: 540px) {
+  .emoji-image {
+    width: 50px;
+    height: 50px;
+  }
+  .emoji-image:hover {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .emoji-image {
+    width: 70px;
+    height: 70px;
+  }
+  .emoji-image:hover {
+    width: 80px;
+    height: 80px;
+  }
+}

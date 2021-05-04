@@ -1,0 +1,42 @@
+/* Write your code here. */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+}
+.emoji-body-container {
+  padding: 50px 10px 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 760px) {
+  .emoji-body-container {
+    padding: 50px;
+  }
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 540px) {
+  .emoji-list {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .emoji-list {
+    width: 80%;
+  }
+}

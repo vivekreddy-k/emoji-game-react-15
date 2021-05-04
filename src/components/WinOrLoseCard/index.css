@@ -1,0 +1,127 @@
+/* Write your code here. */
+/*main container*/
+.winOrLose-container {
+  display: flex;
+  background-color: #ffffff33;
+  width: 80%;
+  border: 3px solid #ffffff30;
+  border-radius: 18px;
+}
+
+@media screen and (max-width: 540px) {
+  .winOrLose-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .winOrLose-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 70px;
+  }
+}
+
+/*win or lose text container and we also set the order of images as they change
+ for different width of screens */
+.winOrLose-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.winOrLose-image-container {
+  order: 1;
+}
+@media screen and (max-width: 540px) {
+  .winOrLose-text-container {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .winOrLose-image-container {
+    order: 0;
+  }
+}
+
+/* heading text whether won or lose text {game status}*/
+.winOrLose-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .winOrLose-status {
+    font-size: 43px;
+  }
+}
+
+/* to display best score or just a normal score depending upon logic {score-label}*/
+.winOrLose-label {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 992px) {
+  .winOrLose-label {
+    font-size: 36px;
+  }
+}
+
+/*get the current score {score}{*/
+.winOrLose-current-score {
+  text-align: center;
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .winOrLose-current-score {
+    font-size: 48px;
+  }
+}
+
+/*play again button */
+.winOrLose-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin: 16px;
+  padding: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+/*image */
+.win-or-lose-image {
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-image {
+    width: 300px;
+    height: 400px;
+  }
+}
