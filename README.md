@@ -1,7 +1,8 @@
-In this assignment let's build a **Emoji Game** by applying the concepts we have learned till now.
+In this assignment let's build a **Emoji Game** 
 
 ### Refer to image below:
 
+refer link to understand application -- https://assets.ccbp.in/frontend/content/react-js/emoji-game-output.gif --
 <br/>
 <div style="text-align: center;">
     <img src="https://assets.ccbp.in/frontend/content/react-js/emoji-game-output.gif" alt="emoji-game-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
@@ -117,11 +118,9 @@ The app must have the following functionalities
 
 - Roboto
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
+###The application is completly responsive (responsive-web-design)
+
+![iphone](https://user-images.githubusercontent.com/46521639/116983020-344fcd00-ace7-11eb-9fe2-3d5b8cc070f0.PNG)
+![responsive 1200](https://user-images.githubusercontent.com/46521639/116983030-36b22700-ace7-11eb-914a-0d8edbe3d786.PNG)
+![i pad](https://user-images.githubusercontent.com/46521639/116983034-387bea80-ace7-11eb-8705-e4f66e925bc3.PNG)
+
